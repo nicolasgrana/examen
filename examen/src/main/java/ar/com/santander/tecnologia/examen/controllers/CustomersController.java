@@ -18,14 +18,6 @@ public class CustomersController {
 	@Autowired
 	CustomerService customerService;
 	
-//	@RequestMapping(value = "/home", method = RequestMethod.GET)
-//	private ModelAndView pantallaHome() {
-//		ModelAndView mav = new ModelAndView("login");
-////		List<Customer> c = customerService.getCustomers();
-////		mav.addObject("customers", c);
-//		return mav;
-//	}
-	
 	@RequestMapping(value = "/getCustomers", method = RequestMethod.GET)
 	private ModelAndView showCustomers() {
 		List<Customer> c = customerService.getCustomers();
@@ -34,18 +26,4 @@ public class CustomersController {
 		return mav;
 	}
 	
-	
-//	@RequestMapping(value = "/", method = RequestMethod.GET)
-//	private ModelAndView getCustomers(
-//			@RequestParam(value="error", required=false) boolean error,
-//			@RequestParam(value="logout", required=false) boolean logout) {
-//		ModelAndView mav = new ModelAndView(Constants.LOGIN_VIEW);
-//		mav.addObject("loginRequest", new LoginRequest());
-//		if(error) {
-//			mav.addObject(Constants.MESSAGE_ERROR, PropertiesConfiguration.getProperty(Mensajes.ERROR_VERIFICAR_DATOS));
-//		}else if(logout) {
-//			mav.addObject(Constants.MESSAGE, PropertiesConfiguration.getProperty(Mensajes.LOGOUT_OK));
-//		}
-//		return mav;
-//	}
 }

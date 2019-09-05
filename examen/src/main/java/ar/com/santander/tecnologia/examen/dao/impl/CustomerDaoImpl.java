@@ -14,10 +14,8 @@ import ar.com.santander.tecnologia.examen.model.Customer;
 public class CustomerDaoImpl implements CustomerDAO{
 
 	
-	
 	@Override
 	public List<Customer> getAllCustomers() {
-		// TODO Auto-generated method stub
 //		return null;
 		return getCustomersDummy();
 	}
@@ -26,7 +24,11 @@ public class CustomerDaoImpl implements CustomerDAO{
 	private List<Customer> getCustomersDummy(){
 		List<Customer> customers = new ArrayList<Customer>();
 		Customer customer = new Customer(1, "Juan");
+		Customer customer2 = new Customer(2, "Laura");
+		Customer customer3 = new Customer(3, "Diego");
 		customers.add(customer);
+		customers.add(customer2);
+		customers.add(customer3);
 		return customers;
 	}
 

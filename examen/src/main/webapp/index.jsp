@@ -4,22 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Index Page</title>
+<link rel="shortcut icon" href="#" />
+<title>Challenge</title>
 </head>
 <body>
 
 	<center>
 		<h2>Bienvenido</h2>
-<!-- 		<h3> -->
-<!-- 			<a href="helloworld?name=Eric">Click Here</a> -->
-<!-- 		</h3> -->
 	</center>
 	<ul>
 		<li><a href="getCustomers">obtener lista clientes</a></li>
 	</ul>
 	<ul>
-		<li><a href="/getCustomers">Simple Form</a></li>
+		<li><a href="getRestCustomers">json lista clientes</a></li>
 	</ul>
 	
 </body>
+
 </html>
