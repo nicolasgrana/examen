@@ -20,17 +20,6 @@
 	<ul>
 		<li><a href="/getCustomers">Simple Form</a></li>
 	</ul>
-	<ul>
-		<li><a href="forms/validationform.html">Validation Form</a></li>
-	</ul>
-	<ul>
-		<li><a href="forms/loginform.html">Login Form</a></li>
-	</ul>
-	<ul>
-		<li><a href="forms/registrationform.html">Registration Form</a></li>
-	</ul>
-	<ul>
-		<li><a href="forms/uploadfileindex.html">File Upload</a></li>
-	</ul>
+	
 </body>
 </html>

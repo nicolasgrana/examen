@@ -18,10 +18,18 @@ public class CustomersController {
 	@Autowired
 	CustomerService customerService;
 	
+//	@RequestMapping(value = "/home", method = RequestMethod.GET)
+//	private ModelAndView pantallaHome() {
+//		ModelAndView mav = new ModelAndView("login");
+////		List<Customer> c = customerService.getCustomers();
+////		mav.addObject("customers", c);
+//		return mav;
+//	}
+	
 	@RequestMapping(value = "/getCustomers", method = RequestMethod.GET)
-	private ModelAndView pantallaHome() {
+	private ModelAndView showCustomers() {
 		List<Customer> c = customerService.getCustomers();
-		ModelAndView mav = new ModelAndView("home");
+		ModelAndView mav = new ModelAndView("customers");
 		mav.addObject("customers", c);
 		return mav;
 	}
