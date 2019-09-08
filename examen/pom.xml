@@ -46,13 +46,6 @@
 			<version>5.0.8.RELEASE</version>
 		</dependency>
 		
-		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs -->
-<!-- 		<dependency> -->
-<!-- 		    <groupId>org.springframework.security</groupId> -->
-<!-- 		    <artifactId>spring-security-taglibs</artifactId> -->
-<!-- 		    <version>5.0.8.RELEASE</version> -->
-<!-- 		</dependency> -->
-		
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
