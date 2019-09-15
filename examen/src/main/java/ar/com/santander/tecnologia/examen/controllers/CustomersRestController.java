@@ -14,7 +14,7 @@ public class CustomersRestController {
 
 	CustomerService customerService;
 	
-	@RequestMapping(value = "/getRestCustomers", method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
+//	@RequestMapping(value = "/getRestCustomers", method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
 	public List<Customer> showCustomers() {
 		List<Customer> c = customerService.getCustomers();
 		return c;
